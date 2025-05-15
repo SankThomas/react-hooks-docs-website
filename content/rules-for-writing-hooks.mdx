@@ -19,6 +19,14 @@ Always declare hooks at the top level of your component. This means that when yo
 
 Always use hooks in function components – because they don’t work outside of function components anyway.
 
+### Rule 4
+
+You can only use hooks on the client-side. Therefore, if you are using a server-side React framework like NextJs, you may not be able to use hooks until you transform the file into a client component using a directive like:
+
+```js
+"use client"
+```
+
 ### Convention
 
 When you create custom hooks, place them inside a folder named “hooks” in your workspace. This will help you separate your logic for hooks from the rest of your application, and will allow you to import your hooks as necessary into whatever component might require them. This is not a rule per se, but a recommended convention that will help you to debug as well as read older code easily.
@@ -55,5 +63,4 @@ export default function TheStateHook() {
   return <div>{name}</div>;
 }
 ```
-
 </Steps>
