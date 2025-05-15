@@ -122,4 +122,7 @@ prefers-color-scheme method
   body {
     @apply font-[family-name:var(--font-geist-sans)];
   }
+  .active  {
+    @apply text-blue-500;
+  }
 }
