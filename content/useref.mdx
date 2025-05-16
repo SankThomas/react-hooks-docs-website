@@ -1,11 +1,14 @@
-import { Steps } from "nextra/components";
+import { Steps, Callout } from "nextra/components";
 
 # useRef
 
 I call the useRef hook the Reference hook because we can use it to point to exact elements in our code, that is, to reference specific elements as you are going to find out in this section.
 In React, every element has access to a ref attribute that you can point towards your useRef variable. In order to understand the useRef hook, we are going to use an example that you will come across in your career as a ReactJs developer. Take a look below:
 
-**P/S: DO NOT RUN THIS EXAMPLE BECAUSE IT WILL CAUSE AN INFINITE LOOP AND IT MIGHT CRASH YOUR BROWSER OR YOUR PC, IF YOU HAVE A POTATO PC LIKE MINE**
+<Callout type="warning">
+  **P/S: DO NOT RUN THIS EXAMPLE BECAUSE IT WILL CAUSE AN INFINITE LOOP AND IT
+  MIGHT CRASH YOUR BROWSER OR YOUR PC, IF YOU HAVE A POTATO PC LIKE MINE**
+</Callout>
 
 ```js
 import { useState, useEffect } from "react";
