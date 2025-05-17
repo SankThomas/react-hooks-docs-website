@@ -18,8 +18,6 @@ export default {
   usesyncexternalstore: "useSyncExternalStore",
   usetransition: "useTransition",
   useid: "useId",
-  usedebounce: "useDebounce",
-  useroutes: "useRoutes",
   useparams: "useParams",
   usepathname: "usePathname",
   userouter: "useRouter",
