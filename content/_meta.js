@@ -23,4 +23,5 @@ export default {
   useparams: "useParams",
   usepathname: "usePathname",
   userouter: "useRouter",
+  usesearchparams: "useSearchParams",
 };
