@@ -120,6 +120,18 @@ export default function StateContext({ children }) {
 }
 ```
 
+> In React 19, you no longer simply render your context as a provider, instead of Component.Provider. That is, you can replace this line:
+
+> ```js
+> <State.Provider value={context}>{children}</State.Provider>
+> ```
+
+> with
+
+> ```js
+> <State value={context}>{children}</State>
+> ```
+
 **So what is happening above?**
 
 1. We update our imports to include the useState hook.
