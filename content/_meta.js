@@ -18,6 +18,7 @@ export default {
   usesyncexternalstore: "useSyncExternalStore",
   usetransition: "useTransition",
   useid: "useId",
+  useoptimistic: "useOptimistic",
   useparams: "useParams",
   usepathname: "usePathname",
   userouter: "useRouter",
